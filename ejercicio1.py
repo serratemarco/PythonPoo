@@ -10,7 +10,7 @@ class Estudiante:
         #Metodo estudiar
         
     def estudiar(self):
-         print("Estudiando....")
+        print("Estudiando....")
         
         
     #Solicitud de datos para crear el objeto 

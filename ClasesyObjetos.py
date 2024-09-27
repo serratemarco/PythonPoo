@@ -14,9 +14,11 @@ class Celular:
 celular1 = Celular("Sansung", "S23", "48MP")
 celular2 = Celular("Iphone 15", "Iphone 15 ProMax", "500MP" )
 #Imprimiendo objetos
-print("El celular es: " + celular1.marca, celular1.modelo, celular1.camara )
-print("El celular es: "+ celular2.marca, celular2.modelo, celular2.camara )
+print("El celular es 1: " + celular1.marca, celular1.modelo, celular1.camara )
+print("El celular es 2: "+ celular2.marca, celular2.modelo, celular2.camara )
     #LLamando a un metodo
 celular1.llamar()
+celular1.cortar()
+celular2.llamar()
 celular2.cortar()
 
